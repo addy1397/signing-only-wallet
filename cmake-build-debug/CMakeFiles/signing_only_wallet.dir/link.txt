@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/signing_only_wallet.dir/main.cpp.o  -o signing_only_wallet 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parichay/CLionProjects/signing-only-wallet/main.cpp
+iostream
+-
+fstream
+-
+map
+-
+vector
+-
+cstdlib
+-
+boost/algorithm/string/predicate.hpp
+-
+boost/algorithm/string.hpp
+-
+sha2.h
+-
+
+/home/parichay/Cypherock/trezor-firmware/crypto/sha2.h
+stdint.h
+-
+stddef.h
+-
+
