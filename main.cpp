@@ -5,7 +5,6 @@
 #include <cstdlib>
 #include <boost/algorithm/string/predicate.hpp>
 #include <boost/algorithm/string.hpp>
-#include <sha2.h>
 
 using namespace std;
 
