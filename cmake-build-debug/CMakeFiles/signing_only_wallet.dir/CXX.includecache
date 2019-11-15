@@ -22,25 +22,9 @@ boost/algorithm/string/predicate.hpp
 boost/algorithm/string.hpp
 -
 sha2.h
--
-picosha2.h
-/home/parichay/CLionProjects/signing-only-wallet/picosha2.h
+/home/parichay/CLionProjects/signing-only-wallet/sha2.h
 
-/home/parichay/CLionProjects/signing-only-wallet/picosha2.h
-algorithm
--
-cassert
--
-iterator
--
-sstream
--
-vector
--
-fstream
--
-
-/home/parichay/Cypherock/trezor-firmware/crypto/sha2.h
+/home/parichay/CLionProjects/signing-only-wallet/sha2.h
 stdint.h
 -
 stddef.h

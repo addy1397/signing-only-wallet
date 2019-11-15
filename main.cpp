@@ -5,6 +5,10 @@
 #include <cstdlib>
 #include <boost/algorithm/string/predicate.hpp>
 #include <boost/algorithm/string.hpp>
+<<<<<<< HEAD
+=======
+#include "sha2.h"
+>>>>>>> Fix raw hex
 
 using namespace std;
 
@@ -184,11 +188,11 @@ string getOutputHex(string no_of_outputs, vector<Output> output) {
     for (int i = 0; i < nOutputs; i++) {
         outputHex += output.at(i).amount;
         outputHex += output.at(i).script_len;
-        outputHex += output.at(i).scriptPubKey.op_dup;
-        outputHex += output.at(i).scriptPubKey.op_hash160;
+//        outputHex += output.at(i).scriptPubKey.op_dup;
+//        outputHex += output.at(i).scriptPubKey.op_hash160;
         outputHex += output.at(i).scriptPubKey.pub_key_hash;
-        outputHex += output.at(i).scriptPubKey.op_equalverify;
-        outputHex += output.at(i).scriptPubKey.op_checksig;
+//        outputHex += output.at(i).scriptPubKey.op_equalverify;
+//        outputHex += output.at(i).scriptPubKey.op_checksig;
     }
     return outputHex;
 }
@@ -221,21 +225,31 @@ int main() {
     string prev_output_index = hex.substr(86, 8); // 8
     string inputScriptLen = "19";
     string inputScriptPubKey = "76a914c70279f1b15f90fb719689463621212da484763b88ac";
-    inputScriptPubKey = inputScriptPubKey.substr(6, 40);
-    const string inputPrivateKeyBase58 = "cTm1JCUwQydQMW6yQ6wwatKtXGAQXjQv4cgZos9BDLYWSxLj9FUi"; // WIF
+    const string inputPrivateKey = "cTm1JCUwQydQMW6yQ6wwatKtXGAQXjQv4cgZos9BDLYWSxLj9FUi"; // WIF
     string sigHashCode = "01000000"; // 8
     string raw_hex = unsigned_txn.getNetworkVer() + unsigned_txn.getNoOfInputs() + prev_tx_hash + prev_output_index +
-                     inputScriptLen + inputScriptPubKey + getOutputHex(unsigned_txn.getNoOfOutputs(), unsigned_txn.getOutput()) + unsigned_txn.getLocktime() +
+                     inputScriptLen + inputScriptPubKey + hex.substr(270, 8) +
+                     getOutputHex(unsigned_txn.getNoOfOutputs(), unsigned_txn.getOutput()) +
+                     unsigned_txn.getLocktime() +
                      sigHashCode;
     string hashTx1, hashTx2;
-//    cout << "Raw transaction hex: " << raw_hex;
-    cout << "Double Hash of Raw transaction: " << hashTx2;
+    char hash[32];
+    size_t len = raw_hex.length();
+//    sha256_Data((uint8_t *)raw_hex.c_str(), len, hash);
+//    sha256_Data((uint8_t *)raw_hex.c_str(), raw_hex.length(), hash);
+//    int a = sha256(raw_hex.c_str(), (size_t) raw_hex.length(), hash);
+    cout << "Raw transaction hex: " << raw_hex << endl;
+//    for (int i = 0; i < 32; i++) {
+//        cout << hash[i];
+//    }
+    unsigned_txn.toString();
+//    cout << "Double Hash of Raw transaction: " << hashTx2;
     return 0;
 }
 
 UnsignedTxn parser(string hex) {
     UnsignedTxn newUnsignedTxn;
-    int lengths[] = {8, 2, 2, 8, 2, 64, 8, 2, 8, 2, 8, 2, 8, 8, 64, 66, 8, 8, 2, 16, 2, 4, 2, 40, 2, 2, 8};
+    int lengths[] = {8, 2, 2, 8, 2, 64, 8, 2, 8, 2, 8, 2, 8, 8, 64, 66, 8, 8, 2, 16, 2, 50, 8};
     int startIndex = 0;
     newUnsignedTxn.setElectrumPartialTx(hex.substr(startIndex, lengths[0])); // 8
     startIndex += lengths[0];
@@ -291,21 +305,21 @@ UnsignedTxn parser(string hex) {
         newOutput.script_len = hex.substr(startIndex, lengths[20]); // 2
         startIndex += lengths[20];
         ScriptPubKey newScriptPubKey;
-        newScriptPubKey.op_dup = hex.substr(startIndex, lengths[21]); // 4
+//        newScriptPubKey.op_dup = hex.substr(startIndex, lengths[21]); // 4
+//        startIndex += lengths[21];
+//        newScriptPubKey.op_hash160 = hex.substr(startIndex, lengths[22]); // 2
+//        startIndex += lengths[22];
+        newScriptPubKey.pub_key_hash = hex.substr(startIndex, lengths[21]); // 40
         startIndex += lengths[21];
-        newScriptPubKey.op_hash160 = hex.substr(startIndex, lengths[22]); // 2
-        startIndex += lengths[22];
-        newScriptPubKey.pub_key_hash = hex.substr(startIndex, lengths[23]); // 40
-        startIndex += lengths[23];
-        newScriptPubKey.op_equalverify = hex.substr(startIndex, lengths[24]); // 2
-        startIndex += lengths[24];
-        newScriptPubKey.op_checksig = hex.substr(startIndex, lengths[25]); // 2
-        startIndex += lengths[25];
+//        newScriptPubKey.op_equalverify = hex.substr(startIndex, lengths[24]); // 2
+//        startIndex += lengths[24];
+//        newScriptPubKey.op_checksig = hex.substr(startIndex, lengths[25]); // 2
+//        startIndex += lengths[25];
         newOutput.scriptPubKey = newScriptPubKey;
         outputs.push_back(newOutput);
     }
     newUnsignedTxn.setOutput(outputs);
-    newUnsignedTxn.setLocktime(hex.substr(startIndex, lengths[26])); // 8
-    startIndex += lengths[26];
+    newUnsignedTxn.setLocktime(hex.substr(startIndex, lengths[22])); // 8
+    startIndex += lengths[22];
     return newUnsignedTxn;
 }

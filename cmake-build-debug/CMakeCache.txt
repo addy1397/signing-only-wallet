@@ -23,8 +23,9 @@ Boost_INCLUDE_DIR:PATH=/usr/include
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:UNINITIALIZED=Debug
+//Choose the type of build, options are: None Debug Release RelWithDebInfo
+// MinSizeRel ...
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Id string of the compiler for the CodeBlocks IDE. Automatically
 // detected when left empty
@@ -224,6 +225,9 @@ ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
 //The directory containing a CMake configuration file for libbitcoin.
 libbitcoin_DIR:PATH=libbitcoin_DIR-NOTFOUND
+
+//Path to a library.
+mylib_LIBRARIES:FILEPATH=mylib_LIBRARIES-NOTFOUND
 
 //Value Computed by CMake
 signing_only_wallet_BINARY_DIR:STATIC=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug

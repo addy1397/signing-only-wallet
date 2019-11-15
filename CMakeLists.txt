@@ -6,9 +6,9 @@ set(BOOST_ROOT "/usr/include/boost")
 
 find_package(Boost 1.65.1)
 
-if(NOT Boost_FOUND)
+if (NOT Boost_FOUND)
     message(FATAL_ERROR "Could not find boost!")
-endif()
+endif ()
 
 add_executable(signing_only_wallet main.cpp)
 
