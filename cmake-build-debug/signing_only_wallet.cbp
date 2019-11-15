@@ -89,9 +89,6 @@
 		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/main.cpp">
 			<Option target="signing_only_wallet"/>
 		</Unit>
-		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/picosha2.h">
-			<Option target="signing_only_wallet"/>
-		</Unit>
 		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

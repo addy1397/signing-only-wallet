@@ -3,4 +3,5 @@
 
 CMakeFiles/signing_only_wallet.dir/main.cpp.o
  /home/parichay/CLionProjects/signing-only-wallet/main.cpp
+ /home/parichay/CLionProjects/signing-only-wallet/picosha2.h
  /home/parichay/Cypherock/trezor-firmware/crypto/sha2.h

@@ -43,6 +43,17 @@ struct Output {
     ScriptPubKey scriptPubKey; // 50
 };
 
+struct DerSignature {
+    string der_prefex = "30";
+    string len = "45";
+    string r_marker = "02";
+    string r_len = "21";
+    string r_value; // 21 (big endian)
+    string s_marker = "02";
+    string s_len = "21";
+    string s_value; // 21 (big endian)
+};
+
 class UnsignedTxn {
 private:
     string electrum_partial_tx; // 8
@@ -216,7 +227,9 @@ int main() {
     string raw_hex = unsigned_txn.getNetworkVer() + unsigned_txn.getNoOfInputs() + prev_tx_hash + prev_output_index +
                      inputScriptLen + inputScriptPubKey + getOutputHex(unsigned_txn.getNoOfOutputs(), unsigned_txn.getOutput()) + unsigned_txn.getLocktime() +
                      sigHashCode;
-    cout << "Raw transaction hex: " << raw_hex;
+    string hashTx1, hashTx2;
+//    cout << "Raw transaction hex: " << raw_hex;
+    cout << "Double Hash of Raw transaction: " << hashTx2;
     return 0;
 }
 

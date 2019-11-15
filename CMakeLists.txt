@@ -11,3 +11,4 @@ if(NOT Boost_FOUND)
 endif()
 
 add_executable(signing_only_wallet main.cpp)
+
