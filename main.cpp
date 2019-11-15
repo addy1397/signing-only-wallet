@@ -5,10 +5,6 @@
 #include <cstdlib>
 #include <boost/algorithm/string/predicate.hpp>
 #include <boost/algorithm/string.hpp>
-<<<<<<< HEAD
-=======
-#include "sha2.h"
->>>>>>> Fix raw hex
 
 using namespace std;
 
