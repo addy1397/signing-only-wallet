@@ -181,7 +181,7 @@ string getOutputHex(string no_of_outputs, vector<Output> output) {
 
 int main() {
     string hex;
-    ifstream unsigned_txnFile("/media/parichay/3656350E5634D07B/Ubuntu/unsigned.txn");
+    ifstream unsigned_txnFile("unsigned.txn");
     if (unsigned_txnFile.is_open()) {
         while (getline(unsigned_txnFile, hex)) {
             if (hex.substr(0, 9) == "    \"hex\"") {
