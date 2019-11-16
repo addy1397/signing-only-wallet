@@ -17,14 +17,9 @@ struct Input {
     string fingerprint; // 8
     string child_number; // 8
     string chain_code; // 64
-    string xpub_key; // 66
+    string pub_key; // 66
     string derivation; // 8
     string sequence; // 8
-};
-
-struct FinalInput {
-    string scriptLength = "19"; // 2
-    string scriptPubKey = "76a914c70279f1b15f90fb719689463621212da484763b88ac"; // https://api.blockcypher.com/v1/btc/test3/txs/2fe5b9e11e6fc335c711a14b81268cc4fa3c8807623f913760d341293a37f17d?limit=50&includeHex=true output:script
 };
 
 struct ScriptPubKey {
@@ -55,8 +50,7 @@ private:
     string electrum_partial_tx_ver; // 2
     string network_ver; // 8
     string no_of_inputs; // 2
-//    vector<Input> input; // no_of_inputs
-//    FinalInput finalInput;
+    vector<Input> input; // no_of_inputs
     string no_of_outputs; // 2
     vector<Output> output; // no_of_outputs
     string locktime; // 8
@@ -66,13 +60,13 @@ public:
         return electrum_partial_tx;
     }
 
-//    const vector<Input> &getInput() const {
-//        return input;
-//    }
-//
-//    void setInput(const vector<Input> &input) {
-//        UnsignedTxn::input = input;
-//    }
+    const vector<Input> &getInput() const {
+        return input;
+    }
+
+    void setInput(const vector<Input> &input) {
+        UnsignedTxn::input = input;
+    }
 
     const vector<Output> &getOutput() const {
         return output;
@@ -140,21 +134,22 @@ public:
         cout << "\nElectrum Partial Transaction Version: " << electrum_partial_tx_ver;
         cout << "\nNetwork Version: " << network_ver;
         cout << "\nNumber of Inputs: " << no_of_inputs;
-//        for (int i = 0; i < no_of_inputs; i++) {
-//            cout << "\nPrevious Tx Hash: " << input.at(i).prev_tx_hash;
-//            cout << "\nPrevious Output Index: " << input.at(i).prev_output_index;
-//            cout << "\nScript Length: " << input.at(i).script_len;
-//            cout << "\nElectrum Specific: " << input.at(i).electron_specific;
-//            cout << "\nXpub Key Type: " << input.at(i).xpub_key_type;
-//            cout << "\nSerialization Version Bytes: " << input.at(i).serial_ver_bytes;
-//            cout << "\nDepth: " << input.at(i).depth;
-//            cout << "\nFingerprint: " << input.at(i).fingerprint;
-//            cout << "\nChild Number: " << input.at(i).child_number;
-//            cout << "\nChain Code: " << input.at(i).chain_code;
-//            cout << "\nXpub Key: " << input.at(i).xpub_key;
-//            cout << "\nDerivation: " << input.at(i).derivation;
-//            cout << "\nSequence: " << input.at(i).sequence;
-//        }
+        int nInputs = (int) strtol(no_of_inputs.c_str(), 0, 16);
+        for (int i = 0; i < nInputs; i++) {
+            cout << "\nPrevious Tx Hash: " << input.at(i).prev_tx_hash;
+            cout << "\nPrevious Output Index: " << input.at(i).prev_output_index;
+            cout << "\nScript Length: " << input.at(i).script_len;
+            cout << "\nElectrum Specific: " << input.at(i).electron_specific;
+            cout << "\nXpub Key Type: " << input.at(i).xpub_key_type;
+            cout << "\nSerialization Version Bytes: " << input.at(i).serial_ver_bytes;
+            cout << "\nDepth: " << input.at(i).depth;
+            cout << "\nFingerprint: " << input.at(i).fingerprint;
+            cout << "\nChild Number: " << input.at(i).child_number;
+            cout << "\nChain Code: " << input.at(i).chain_code;
+            cout << "\nXpub Key: " << input.at(i).pub_key;
+            cout << "\nDerivation: " << input.at(i).derivation;
+            cout << "\nSequence: " << input.at(i).sequence;
+        }
         cout << "\nNumber of Outputs: " << no_of_outputs;
         int nOutputs = (int) strtol(no_of_outputs.c_str(), 0, 16);
         for (int i = 0; i < nOutputs; i++) {
@@ -206,11 +201,11 @@ int main() {
     string prev_tx_hash = hex.substr(22, 64); // 64
     string prev_output_index = hex.substr(86, 8); // 8
     string inputScriptLen = "19";
-    string inputScriptPubKey = "76a914c70279f1b15f90fb719689463621212da484763b88ac";
+    string inputScriptPubKey = "76a914c70279f1b15f90fb719689463621212da484763b88ac"; // https://api.blockcypher.com/v1/btc/test3/txs/2fe5b9e11e6fc335c711a14b81268cc4fa3c8807623f913760d341293a37f17d?limit=50&includeHex=true output:script
     const string inputPrivateKey = "cTm1JCUwQydQMW6yQ6wwatKtXGAQXjQv4cgZos9BDLYWSxLj9FUi"; // WIF
     string sigHashCode = "01000000"; // 8
     string raw_hex = unsigned_txn.getNetworkVer() + unsigned_txn.getNoOfInputs() + prev_tx_hash + prev_output_index +
-                     inputScriptLen + inputScriptPubKey + hex.substr(270, 8) +
+                     inputScriptLen + inputScriptPubKey + hex.substr(270, 8) + // sequence
                      getOutputHex(unsigned_txn.getNoOfOutputs(), unsigned_txn.getOutput()) +
                      unsigned_txn.getLocktime() +
                      sigHashCode;
@@ -267,15 +262,15 @@ UnsignedTxn parser(string hex) {
         startIndex += lengths[13];
         newInput.chain_code = hex.substr(startIndex, lengths[14]); // 64
         startIndex += lengths[14];
-        newInput.xpub_key = hex.substr(startIndex, lengths[15]); // 66
+        newInput.pub_key = hex.substr(startIndex, lengths[15]); // 66
         startIndex += lengths[15];
         newInput.derivation = hex.substr(startIndex, lengths[16]); // 8
         startIndex += lengths[16];
         newInput.sequence = hex.substr(startIndex, lengths[17]); // 8
         startIndex += lengths[17];
-//        inputs.push_back(newInput);
+        inputs.push_back(newInput);
     }
-//    newUnsignedTxn.setInput(inputs);
+    newUnsignedTxn.setInput(inputs);
     newUnsignedTxn.setNoOfOutputs(hex.substr(startIndex, lengths[18])); // 2
     int nOutputs = (int) strtol(newUnsignedTxn.getNoOfOutputs().c_str(), 0, 16);
     startIndex += lengths[18];
