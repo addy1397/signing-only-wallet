@@ -3,8 +3,6 @@
 #include <map>
 #include <vector>
 #include <cstdlib>
-#include <boost/algorithm/string/predicate.hpp>
-#include <boost/algorithm/string.hpp>
 
 using namespace std;
 
@@ -30,11 +28,7 @@ struct FinalInput {
 };
 
 struct ScriptPubKey {
-    string op_dup; // 4
-    string op_hash160; // 2
-    string pub_key_hash; // 40
-    string op_equalverify; // 2
-    string op_checksig; // 2
+    string pub_key_hash; // 50
 };
 
 struct Output {
@@ -167,9 +161,7 @@ public:
         for (int i = 0; i < nOutputs; i++) {
             cout << "\nAmount: " << output.at(i).amount;
             cout << "\nScript Length: " << output.at(i).script_len;
-            cout << "\nScript Public Key: " << output.at(i).scriptPubKey.op_dup << output.at(i).scriptPubKey.op_hash160
-                 << output.at(i).scriptPubKey.pub_key_hash << output.at(i).scriptPubKey.op_equalverify
-                 << output.at(i).scriptPubKey.op_checksig;
+            cout << "\nScript Public Key: " << output.at(i).scriptPubKey.pub_key_hash;
         }
         cout << "\nLocktime: " << locktime;
     }
@@ -184,23 +176,18 @@ string getOutputHex(string no_of_outputs, vector<Output> output) {
     for (int i = 0; i < nOutputs; i++) {
         outputHex += output.at(i).amount;
         outputHex += output.at(i).script_len;
-//        outputHex += output.at(i).scriptPubKey.op_dup;
-//        outputHex += output.at(i).scriptPubKey.op_hash160;
         outputHex += output.at(i).scriptPubKey.pub_key_hash;
-//        outputHex += output.at(i).scriptPubKey.op_equalverify;
-//        outputHex += output.at(i).scriptPubKey.op_checksig;
     }
     return outputHex;
 }
 
 int main() {
     string hex;
-    ifstream unsigned_txnFile("/home/parichay/Documents/unsigned.txn");
+    ifstream unsigned_txnFile("/media/parichay/3656350E5634D07B/Ubuntu/unsigned.txn");
     if (unsigned_txnFile.is_open()) {
         while (getline(unsigned_txnFile, hex)) {
-            if (boost::starts_with(hex, "    \"hex\"")) {
-                hex = boost::erase_head_copy(hex, 12);
-                hex = boost::erase_tail_copy(hex, 2);
+            if (hex.substr(0, 9) == "    \"hex\"") {
+                hex = hex.substr(12, 424);
                 try {
                     if (hex.length() != 424) {
                         throw "Unsigned transaction not supported";
@@ -228,17 +215,17 @@ int main() {
                      getOutputHex(unsigned_txn.getNoOfOutputs(), unsigned_txn.getOutput()) +
                      unsigned_txn.getLocktime() +
                      sigHashCode;
-    string hashTx1, hashTx2;
-    char hash[32];
-    size_t len = raw_hex.length();
+//    string hashTx1, hashTx2;
+//    char hash[32];
+//    size_t len = raw_hex.length();
 //    sha256_Data((uint8_t *)raw_hex.c_str(), len, hash);
 //    sha256_Data((uint8_t *)raw_hex.c_str(), raw_hex.length(), hash);
 //    int a = sha256(raw_hex.c_str(), (size_t) raw_hex.length(), hash);
     cout << "Raw transaction hex: " << raw_hex << endl;
+    unsigned_txn.toString();
 //    for (int i = 0; i < 32; i++) {
 //        cout << hash[i];
 //    }
-    unsigned_txn.toString();
 //    cout << "Double Hash of Raw transaction: " << hashTx2;
     return 0;
 }
@@ -301,16 +288,8 @@ UnsignedTxn parser(string hex) {
         newOutput.script_len = hex.substr(startIndex, lengths[20]); // 2
         startIndex += lengths[20];
         ScriptPubKey newScriptPubKey;
-//        newScriptPubKey.op_dup = hex.substr(startIndex, lengths[21]); // 4
-//        startIndex += lengths[21];
-//        newScriptPubKey.op_hash160 = hex.substr(startIndex, lengths[22]); // 2
-//        startIndex += lengths[22];
         newScriptPubKey.pub_key_hash = hex.substr(startIndex, lengths[21]); // 40
         startIndex += lengths[21];
-//        newScriptPubKey.op_equalverify = hex.substr(startIndex, lengths[24]); // 2
-//        startIndex += lengths[24];
-//        newScriptPubKey.op_checksig = hex.substr(startIndex, lengths[25]); // 2
-//        startIndex += lengths[25];
         newOutput.scriptPubKey = newScriptPubKey;
         outputs.push_back(newOutput);
     }
