@@ -41,10 +41,10 @@ struct DerSignature {
     string der_prefex = "30";
     string len = "45";
     string r_marker = "02";
-    string r_len = "21";
+    string r_len; // 20 or 21
     string r_value; // 21 (big endian)
     string s_marker = "02";
-    string s_len = "21";
+    string s_len; // 20 or 21
     string s_value; // 21 (big endian)
 };
 
