@@ -57,7 +57,6 @@ private:
     string no_of_inputs; // 2
 //    vector<Input> input; // no_of_inputs
 //    FinalInput finalInput;
-private:
     string no_of_outputs; // 2
     vector<Output> output; // no_of_outputs
     string locktime; // 8
