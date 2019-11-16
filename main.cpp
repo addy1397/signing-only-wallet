@@ -213,19 +213,10 @@ int main() {
                      getOutputHex(unsigned_txn.getNoOfOutputs(), unsigned_txn.getOutput()) +
                      unsigned_txn.getLocktime() +
                      sigHashCode;
-//    string hashTx1, hashTx2;
     uint8_t hash[32];
     size_t len = raw_hex.length();
     size_t tst = sha256((uint8_t *)raw_hex.c_str(), len, hash);
     cout << tst;
-//    sha256_Data((uint8_t *)raw_hex.c_str(), raw_hex.length(), hash);
-//    int a = sha256(raw_hex.c_str(), (size_t) raw_hex.length(), hash);
-//    cout << "Raw transaction hex: " << raw_hex << endl;
-//    unsigned_txn.toString();
-//    for (int i = 0; i < 32; i++) {
-//        cout << hash[i];
-//    }
-//    cout << "Double Hash of Raw transaction: " << hashTx2;
     return 0;
 }
 
