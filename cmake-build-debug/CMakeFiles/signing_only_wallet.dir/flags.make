@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src -I/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility -I/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor 
 

@@ -34,6 +34,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src"/>
+					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility"/>
+					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -57,6 +60,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src"/>
+					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility"/>
+					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>

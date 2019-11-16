@@ -3,6 +3,7 @@
 #include <map>
 #include <vector>
 #include <cstdlib>
+#include <Hash.h>
 
 using namespace std;
 
@@ -213,13 +214,14 @@ int main() {
                      unsigned_txn.getLocktime() +
                      sigHashCode;
 //    string hashTx1, hashTx2;
-//    char hash[32];
-//    size_t len = raw_hex.length();
-//    sha256_Data((uint8_t *)raw_hex.c_str(), len, hash);
+    uint8_t hash[32];
+    size_t len = raw_hex.length();
+    size_t tst = sha256((uint8_t *)raw_hex.c_str(), len, hash);
+    cout << tst;
 //    sha256_Data((uint8_t *)raw_hex.c_str(), raw_hex.length(), hash);
 //    int a = sha256(raw_hex.c_str(), (size_t) raw_hex.length(), hash);
-    cout << "Raw transaction hex: " << raw_hex << endl;
-    unsigned_txn.toString();
+//    cout << "Raw transaction hex: " << raw_hex << endl;
+//    unsigned_txn.toString();
 //    for (int i = 0; i < 32; i++) {
 //        cout << hash[i];
 //    }
