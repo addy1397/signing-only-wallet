@@ -141,14 +141,17 @@ public:
             cout << "\nScript Length: " << input.at(i).script_len;
             cout << "\nElectrum Specific: " << input.at(i).electron_specific;
             cout << "\nXpub Key Type: " << input.at(i).xpub_key_type;
+            // Extended Public Key starts
+            // see bip32.org
             cout << "\nSerialization Version Bytes: " << input.at(i).serial_ver_bytes;
             cout << "\nDepth: " << input.at(i).depth;
             cout << "\nFingerprint: " << input.at(i).fingerprint;
             cout << "\nChild Number: " << input.at(i).child_number;
             cout << "\nChain Code: " << input.at(i).chain_code;
-            cout << "\nXpub Key: " << input.at(i).pub_key;
+            cout << "\nPublic Key: " << input.at(i).pub_key;
             cout << "\nDerivation: " << input.at(i).derivation;
             cout << "\nSequence: " << input.at(i).sequence;
+            // Extended Public Key ends
         }
         cout << "\nNumber of Outputs: " << no_of_outputs;
         int nOutputs = (int) strtol(no_of_outputs.c_str(), 0, 16);
