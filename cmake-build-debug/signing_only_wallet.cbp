@@ -35,8 +35,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src"/>
-					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility"/>
-					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -61,8 +59,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src"/>
-					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility"/>
-					<Add directory="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -91,6 +87,153 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/main.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BaseClasses.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BaseClasses.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Bitcoin.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Bitcoin.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BitcoinCurve.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BitcoinCurve.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Conversion.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Conversion.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Electrum.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Electrum.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/HDWallet.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Hash.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Hash.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/PSBT.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/PSBT.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Script.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Transaction.cpp">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/segwit_addr.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/segwit_addr.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/address.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/address.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/base58.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/base58.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bignum.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bignum.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bip39.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bip39.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ecdsa.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ecdsa.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hasher.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hasher.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hmac.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hmac.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/memzero.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/memzero.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/pbkdf2.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/pbkdf2.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rand.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rand.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rfc6979.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rfc6979.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ripemd160.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ripemd160.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/secp256k1.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/secp256k1.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha2.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha2.h">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha3.c">
+			<Option target="signing_only_wallet"/>
+		</Unit>
+		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha3.h">
 			<Option target="signing_only_wallet"/>
 		</Unit>
 		<Unit filename="/home/parichay/CLionProjects/signing-only-wallet/CMakeLists.txt">

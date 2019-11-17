@@ -3,6 +3,7 @@
 #include <map>
 #include <vector>
 #include <cstdlib>
+#include <cstdio>
 #include <Hash.h>
 
 using namespace std;
@@ -216,7 +217,10 @@ int main() {
     uint8_t hash[32];
     size_t len = raw_hex.length();
     size_t tst = sha256((uint8_t *)raw_hex.c_str(), len, hash);
-    cout << tst;
+    cout << raw_hex << endl;
+    for(int i = 0; i < 32; i++) {
+        printf("%hhX", hash[i]);
+    }
     return 0;
 }
 

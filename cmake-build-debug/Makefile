@@ -150,6 +150,708 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+uBitcoin/src/BaseClasses.o: uBitcoin/src/BaseClasses.cpp.o
+
+.PHONY : uBitcoin/src/BaseClasses.o
+
+# target to build an object file
+uBitcoin/src/BaseClasses.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.o
+.PHONY : uBitcoin/src/BaseClasses.cpp.o
+
+uBitcoin/src/BaseClasses.i: uBitcoin/src/BaseClasses.cpp.i
+
+.PHONY : uBitcoin/src/BaseClasses.i
+
+# target to preprocess a source file
+uBitcoin/src/BaseClasses.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.i
+.PHONY : uBitcoin/src/BaseClasses.cpp.i
+
+uBitcoin/src/BaseClasses.s: uBitcoin/src/BaseClasses.cpp.s
+
+.PHONY : uBitcoin/src/BaseClasses.s
+
+# target to generate assembly for a file
+uBitcoin/src/BaseClasses.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.s
+.PHONY : uBitcoin/src/BaseClasses.cpp.s
+
+uBitcoin/src/Bitcoin.o: uBitcoin/src/Bitcoin.cpp.o
+
+.PHONY : uBitcoin/src/Bitcoin.o
+
+# target to build an object file
+uBitcoin/src/Bitcoin.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.o
+.PHONY : uBitcoin/src/Bitcoin.cpp.o
+
+uBitcoin/src/Bitcoin.i: uBitcoin/src/Bitcoin.cpp.i
+
+.PHONY : uBitcoin/src/Bitcoin.i
+
+# target to preprocess a source file
+uBitcoin/src/Bitcoin.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.i
+.PHONY : uBitcoin/src/Bitcoin.cpp.i
+
+uBitcoin/src/Bitcoin.s: uBitcoin/src/Bitcoin.cpp.s
+
+.PHONY : uBitcoin/src/Bitcoin.s
+
+# target to generate assembly for a file
+uBitcoin/src/Bitcoin.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.s
+.PHONY : uBitcoin/src/Bitcoin.cpp.s
+
+uBitcoin/src/BitcoinCurve.o: uBitcoin/src/BitcoinCurve.cpp.o
+
+.PHONY : uBitcoin/src/BitcoinCurve.o
+
+# target to build an object file
+uBitcoin/src/BitcoinCurve.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.o
+.PHONY : uBitcoin/src/BitcoinCurve.cpp.o
+
+uBitcoin/src/BitcoinCurve.i: uBitcoin/src/BitcoinCurve.cpp.i
+
+.PHONY : uBitcoin/src/BitcoinCurve.i
+
+# target to preprocess a source file
+uBitcoin/src/BitcoinCurve.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.i
+.PHONY : uBitcoin/src/BitcoinCurve.cpp.i
+
+uBitcoin/src/BitcoinCurve.s: uBitcoin/src/BitcoinCurve.cpp.s
+
+.PHONY : uBitcoin/src/BitcoinCurve.s
+
+# target to generate assembly for a file
+uBitcoin/src/BitcoinCurve.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.s
+.PHONY : uBitcoin/src/BitcoinCurve.cpp.s
+
+uBitcoin/src/Conversion.o: uBitcoin/src/Conversion.cpp.o
+
+.PHONY : uBitcoin/src/Conversion.o
+
+# target to build an object file
+uBitcoin/src/Conversion.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.o
+.PHONY : uBitcoin/src/Conversion.cpp.o
+
+uBitcoin/src/Conversion.i: uBitcoin/src/Conversion.cpp.i
+
+.PHONY : uBitcoin/src/Conversion.i
+
+# target to preprocess a source file
+uBitcoin/src/Conversion.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.i
+.PHONY : uBitcoin/src/Conversion.cpp.i
+
+uBitcoin/src/Conversion.s: uBitcoin/src/Conversion.cpp.s
+
+.PHONY : uBitcoin/src/Conversion.s
+
+# target to generate assembly for a file
+uBitcoin/src/Conversion.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.s
+.PHONY : uBitcoin/src/Conversion.cpp.s
+
+uBitcoin/src/Electrum.o: uBitcoin/src/Electrum.cpp.o
+
+.PHONY : uBitcoin/src/Electrum.o
+
+# target to build an object file
+uBitcoin/src/Electrum.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.o
+.PHONY : uBitcoin/src/Electrum.cpp.o
+
+uBitcoin/src/Electrum.i: uBitcoin/src/Electrum.cpp.i
+
+.PHONY : uBitcoin/src/Electrum.i
+
+# target to preprocess a source file
+uBitcoin/src/Electrum.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.i
+.PHONY : uBitcoin/src/Electrum.cpp.i
+
+uBitcoin/src/Electrum.s: uBitcoin/src/Electrum.cpp.s
+
+.PHONY : uBitcoin/src/Electrum.s
+
+# target to generate assembly for a file
+uBitcoin/src/Electrum.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.s
+.PHONY : uBitcoin/src/Electrum.cpp.s
+
+uBitcoin/src/HDWallet.o: uBitcoin/src/HDWallet.cpp.o
+
+.PHONY : uBitcoin/src/HDWallet.o
+
+# target to build an object file
+uBitcoin/src/HDWallet.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.o
+.PHONY : uBitcoin/src/HDWallet.cpp.o
+
+uBitcoin/src/HDWallet.i: uBitcoin/src/HDWallet.cpp.i
+
+.PHONY : uBitcoin/src/HDWallet.i
+
+# target to preprocess a source file
+uBitcoin/src/HDWallet.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.i
+.PHONY : uBitcoin/src/HDWallet.cpp.i
+
+uBitcoin/src/HDWallet.s: uBitcoin/src/HDWallet.cpp.s
+
+.PHONY : uBitcoin/src/HDWallet.s
+
+# target to generate assembly for a file
+uBitcoin/src/HDWallet.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.s
+.PHONY : uBitcoin/src/HDWallet.cpp.s
+
+uBitcoin/src/Hash.o: uBitcoin/src/Hash.cpp.o
+
+.PHONY : uBitcoin/src/Hash.o
+
+# target to build an object file
+uBitcoin/src/Hash.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.o
+.PHONY : uBitcoin/src/Hash.cpp.o
+
+uBitcoin/src/Hash.i: uBitcoin/src/Hash.cpp.i
+
+.PHONY : uBitcoin/src/Hash.i
+
+# target to preprocess a source file
+uBitcoin/src/Hash.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.i
+.PHONY : uBitcoin/src/Hash.cpp.i
+
+uBitcoin/src/Hash.s: uBitcoin/src/Hash.cpp.s
+
+.PHONY : uBitcoin/src/Hash.s
+
+# target to generate assembly for a file
+uBitcoin/src/Hash.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.s
+.PHONY : uBitcoin/src/Hash.cpp.s
+
+uBitcoin/src/PSBT.o: uBitcoin/src/PSBT.cpp.o
+
+.PHONY : uBitcoin/src/PSBT.o
+
+# target to build an object file
+uBitcoin/src/PSBT.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.o
+.PHONY : uBitcoin/src/PSBT.cpp.o
+
+uBitcoin/src/PSBT.i: uBitcoin/src/PSBT.cpp.i
+
+.PHONY : uBitcoin/src/PSBT.i
+
+# target to preprocess a source file
+uBitcoin/src/PSBT.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.i
+.PHONY : uBitcoin/src/PSBT.cpp.i
+
+uBitcoin/src/PSBT.s: uBitcoin/src/PSBT.cpp.s
+
+.PHONY : uBitcoin/src/PSBT.s
+
+# target to generate assembly for a file
+uBitcoin/src/PSBT.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.s
+.PHONY : uBitcoin/src/PSBT.cpp.s
+
+uBitcoin/src/Script.o: uBitcoin/src/Script.cpp.o
+
+.PHONY : uBitcoin/src/Script.o
+
+# target to build an object file
+uBitcoin/src/Script.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.o
+.PHONY : uBitcoin/src/Script.cpp.o
+
+uBitcoin/src/Script.i: uBitcoin/src/Script.cpp.i
+
+.PHONY : uBitcoin/src/Script.i
+
+# target to preprocess a source file
+uBitcoin/src/Script.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.i
+.PHONY : uBitcoin/src/Script.cpp.i
+
+uBitcoin/src/Script.s: uBitcoin/src/Script.cpp.s
+
+.PHONY : uBitcoin/src/Script.s
+
+# target to generate assembly for a file
+uBitcoin/src/Script.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.s
+.PHONY : uBitcoin/src/Script.cpp.s
+
+uBitcoin/src/Transaction.o: uBitcoin/src/Transaction.cpp.o
+
+.PHONY : uBitcoin/src/Transaction.o
+
+# target to build an object file
+uBitcoin/src/Transaction.cpp.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.o
+.PHONY : uBitcoin/src/Transaction.cpp.o
+
+uBitcoin/src/Transaction.i: uBitcoin/src/Transaction.cpp.i
+
+.PHONY : uBitcoin/src/Transaction.i
+
+# target to preprocess a source file
+uBitcoin/src/Transaction.cpp.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.i
+.PHONY : uBitcoin/src/Transaction.cpp.i
+
+uBitcoin/src/Transaction.s: uBitcoin/src/Transaction.cpp.s
+
+.PHONY : uBitcoin/src/Transaction.s
+
+# target to generate assembly for a file
+uBitcoin/src/Transaction.cpp.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.s
+.PHONY : uBitcoin/src/Transaction.cpp.s
+
+uBitcoin/src/utility/segwit_addr.o: uBitcoin/src/utility/segwit_addr.c.o
+
+.PHONY : uBitcoin/src/utility/segwit_addr.o
+
+# target to build an object file
+uBitcoin/src/utility/segwit_addr.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.o
+.PHONY : uBitcoin/src/utility/segwit_addr.c.o
+
+uBitcoin/src/utility/segwit_addr.i: uBitcoin/src/utility/segwit_addr.c.i
+
+.PHONY : uBitcoin/src/utility/segwit_addr.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/segwit_addr.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.i
+.PHONY : uBitcoin/src/utility/segwit_addr.c.i
+
+uBitcoin/src/utility/segwit_addr.s: uBitcoin/src/utility/segwit_addr.c.s
+
+.PHONY : uBitcoin/src/utility/segwit_addr.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/segwit_addr.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.s
+.PHONY : uBitcoin/src/utility/segwit_addr.c.s
+
+uBitcoin/src/utility/trezor/address.o: uBitcoin/src/utility/trezor/address.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/address.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/address.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.o
+.PHONY : uBitcoin/src/utility/trezor/address.c.o
+
+uBitcoin/src/utility/trezor/address.i: uBitcoin/src/utility/trezor/address.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/address.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/address.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.i
+.PHONY : uBitcoin/src/utility/trezor/address.c.i
+
+uBitcoin/src/utility/trezor/address.s: uBitcoin/src/utility/trezor/address.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/address.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/address.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.s
+.PHONY : uBitcoin/src/utility/trezor/address.c.s
+
+uBitcoin/src/utility/trezor/base58.o: uBitcoin/src/utility/trezor/base58.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/base58.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/base58.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.o
+.PHONY : uBitcoin/src/utility/trezor/base58.c.o
+
+uBitcoin/src/utility/trezor/base58.i: uBitcoin/src/utility/trezor/base58.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/base58.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/base58.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.i
+.PHONY : uBitcoin/src/utility/trezor/base58.c.i
+
+uBitcoin/src/utility/trezor/base58.s: uBitcoin/src/utility/trezor/base58.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/base58.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/base58.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.s
+.PHONY : uBitcoin/src/utility/trezor/base58.c.s
+
+uBitcoin/src/utility/trezor/bignum.o: uBitcoin/src/utility/trezor/bignum.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/bignum.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/bignum.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.o
+.PHONY : uBitcoin/src/utility/trezor/bignum.c.o
+
+uBitcoin/src/utility/trezor/bignum.i: uBitcoin/src/utility/trezor/bignum.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/bignum.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/bignum.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.i
+.PHONY : uBitcoin/src/utility/trezor/bignum.c.i
+
+uBitcoin/src/utility/trezor/bignum.s: uBitcoin/src/utility/trezor/bignum.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/bignum.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/bignum.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.s
+.PHONY : uBitcoin/src/utility/trezor/bignum.c.s
+
+uBitcoin/src/utility/trezor/bip39.o: uBitcoin/src/utility/trezor/bip39.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/bip39.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/bip39.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.o
+.PHONY : uBitcoin/src/utility/trezor/bip39.c.o
+
+uBitcoin/src/utility/trezor/bip39.i: uBitcoin/src/utility/trezor/bip39.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/bip39.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/bip39.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.i
+.PHONY : uBitcoin/src/utility/trezor/bip39.c.i
+
+uBitcoin/src/utility/trezor/bip39.s: uBitcoin/src/utility/trezor/bip39.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/bip39.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/bip39.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.s
+.PHONY : uBitcoin/src/utility/trezor/bip39.c.s
+
+uBitcoin/src/utility/trezor/ecdsa.o: uBitcoin/src/utility/trezor/ecdsa.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/ecdsa.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/ecdsa.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.o
+.PHONY : uBitcoin/src/utility/trezor/ecdsa.c.o
+
+uBitcoin/src/utility/trezor/ecdsa.i: uBitcoin/src/utility/trezor/ecdsa.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/ecdsa.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/ecdsa.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.i
+.PHONY : uBitcoin/src/utility/trezor/ecdsa.c.i
+
+uBitcoin/src/utility/trezor/ecdsa.s: uBitcoin/src/utility/trezor/ecdsa.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/ecdsa.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/ecdsa.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.s
+.PHONY : uBitcoin/src/utility/trezor/ecdsa.c.s
+
+uBitcoin/src/utility/trezor/hasher.o: uBitcoin/src/utility/trezor/hasher.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/hasher.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/hasher.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.o
+.PHONY : uBitcoin/src/utility/trezor/hasher.c.o
+
+uBitcoin/src/utility/trezor/hasher.i: uBitcoin/src/utility/trezor/hasher.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/hasher.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/hasher.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.i
+.PHONY : uBitcoin/src/utility/trezor/hasher.c.i
+
+uBitcoin/src/utility/trezor/hasher.s: uBitcoin/src/utility/trezor/hasher.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/hasher.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/hasher.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.s
+.PHONY : uBitcoin/src/utility/trezor/hasher.c.s
+
+uBitcoin/src/utility/trezor/hmac.o: uBitcoin/src/utility/trezor/hmac.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/hmac.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/hmac.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.o
+.PHONY : uBitcoin/src/utility/trezor/hmac.c.o
+
+uBitcoin/src/utility/trezor/hmac.i: uBitcoin/src/utility/trezor/hmac.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/hmac.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/hmac.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.i
+.PHONY : uBitcoin/src/utility/trezor/hmac.c.i
+
+uBitcoin/src/utility/trezor/hmac.s: uBitcoin/src/utility/trezor/hmac.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/hmac.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/hmac.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.s
+.PHONY : uBitcoin/src/utility/trezor/hmac.c.s
+
+uBitcoin/src/utility/trezor/memzero.o: uBitcoin/src/utility/trezor/memzero.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/memzero.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/memzero.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.o
+.PHONY : uBitcoin/src/utility/trezor/memzero.c.o
+
+uBitcoin/src/utility/trezor/memzero.i: uBitcoin/src/utility/trezor/memzero.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/memzero.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/memzero.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.i
+.PHONY : uBitcoin/src/utility/trezor/memzero.c.i
+
+uBitcoin/src/utility/trezor/memzero.s: uBitcoin/src/utility/trezor/memzero.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/memzero.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/memzero.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.s
+.PHONY : uBitcoin/src/utility/trezor/memzero.c.s
+
+uBitcoin/src/utility/trezor/pbkdf2.o: uBitcoin/src/utility/trezor/pbkdf2.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/pbkdf2.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/pbkdf2.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.o
+.PHONY : uBitcoin/src/utility/trezor/pbkdf2.c.o
+
+uBitcoin/src/utility/trezor/pbkdf2.i: uBitcoin/src/utility/trezor/pbkdf2.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/pbkdf2.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/pbkdf2.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.i
+.PHONY : uBitcoin/src/utility/trezor/pbkdf2.c.i
+
+uBitcoin/src/utility/trezor/pbkdf2.s: uBitcoin/src/utility/trezor/pbkdf2.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/pbkdf2.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/pbkdf2.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.s
+.PHONY : uBitcoin/src/utility/trezor/pbkdf2.c.s
+
+uBitcoin/src/utility/trezor/rand.o: uBitcoin/src/utility/trezor/rand.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/rand.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/rand.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.o
+.PHONY : uBitcoin/src/utility/trezor/rand.c.o
+
+uBitcoin/src/utility/trezor/rand.i: uBitcoin/src/utility/trezor/rand.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/rand.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/rand.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.i
+.PHONY : uBitcoin/src/utility/trezor/rand.c.i
+
+uBitcoin/src/utility/trezor/rand.s: uBitcoin/src/utility/trezor/rand.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/rand.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/rand.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.s
+.PHONY : uBitcoin/src/utility/trezor/rand.c.s
+
+uBitcoin/src/utility/trezor/rfc6979.o: uBitcoin/src/utility/trezor/rfc6979.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/rfc6979.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/rfc6979.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.o
+.PHONY : uBitcoin/src/utility/trezor/rfc6979.c.o
+
+uBitcoin/src/utility/trezor/rfc6979.i: uBitcoin/src/utility/trezor/rfc6979.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/rfc6979.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/rfc6979.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.i
+.PHONY : uBitcoin/src/utility/trezor/rfc6979.c.i
+
+uBitcoin/src/utility/trezor/rfc6979.s: uBitcoin/src/utility/trezor/rfc6979.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/rfc6979.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/rfc6979.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.s
+.PHONY : uBitcoin/src/utility/trezor/rfc6979.c.s
+
+uBitcoin/src/utility/trezor/ripemd160.o: uBitcoin/src/utility/trezor/ripemd160.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/ripemd160.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/ripemd160.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.o
+.PHONY : uBitcoin/src/utility/trezor/ripemd160.c.o
+
+uBitcoin/src/utility/trezor/ripemd160.i: uBitcoin/src/utility/trezor/ripemd160.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/ripemd160.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/ripemd160.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.i
+.PHONY : uBitcoin/src/utility/trezor/ripemd160.c.i
+
+uBitcoin/src/utility/trezor/ripemd160.s: uBitcoin/src/utility/trezor/ripemd160.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/ripemd160.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/ripemd160.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.s
+.PHONY : uBitcoin/src/utility/trezor/ripemd160.c.s
+
+uBitcoin/src/utility/trezor/secp256k1.o: uBitcoin/src/utility/trezor/secp256k1.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/secp256k1.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/secp256k1.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.o
+.PHONY : uBitcoin/src/utility/trezor/secp256k1.c.o
+
+uBitcoin/src/utility/trezor/secp256k1.i: uBitcoin/src/utility/trezor/secp256k1.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/secp256k1.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/secp256k1.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.i
+.PHONY : uBitcoin/src/utility/trezor/secp256k1.c.i
+
+uBitcoin/src/utility/trezor/secp256k1.s: uBitcoin/src/utility/trezor/secp256k1.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/secp256k1.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/secp256k1.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.s
+.PHONY : uBitcoin/src/utility/trezor/secp256k1.c.s
+
+uBitcoin/src/utility/trezor/sha2.o: uBitcoin/src/utility/trezor/sha2.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/sha2.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/sha2.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.o
+.PHONY : uBitcoin/src/utility/trezor/sha2.c.o
+
+uBitcoin/src/utility/trezor/sha2.i: uBitcoin/src/utility/trezor/sha2.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/sha2.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/sha2.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.i
+.PHONY : uBitcoin/src/utility/trezor/sha2.c.i
+
+uBitcoin/src/utility/trezor/sha2.s: uBitcoin/src/utility/trezor/sha2.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/sha2.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/sha2.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.s
+.PHONY : uBitcoin/src/utility/trezor/sha2.c.s
+
+uBitcoin/src/utility/trezor/sha3.o: uBitcoin/src/utility/trezor/sha3.c.o
+
+.PHONY : uBitcoin/src/utility/trezor/sha3.o
+
+# target to build an object file
+uBitcoin/src/utility/trezor/sha3.c.o:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.o
+.PHONY : uBitcoin/src/utility/trezor/sha3.c.o
+
+uBitcoin/src/utility/trezor/sha3.i: uBitcoin/src/utility/trezor/sha3.c.i
+
+.PHONY : uBitcoin/src/utility/trezor/sha3.i
+
+# target to preprocess a source file
+uBitcoin/src/utility/trezor/sha3.c.i:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.i
+.PHONY : uBitcoin/src/utility/trezor/sha3.c.i
+
+uBitcoin/src/utility/trezor/sha3.s: uBitcoin/src/utility/trezor/sha3.c.s
+
+.PHONY : uBitcoin/src/utility/trezor/sha3.s
+
+# target to generate assembly for a file
+uBitcoin/src/utility/trezor/sha3.c.s:
+	$(MAKE) -f CMakeFiles/signing_only_wallet.dir/build.make CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.s
+.PHONY : uBitcoin/src/utility/trezor/sha3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +864,84 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... uBitcoin/src/BaseClasses.o"
+	@echo "... uBitcoin/src/BaseClasses.i"
+	@echo "... uBitcoin/src/BaseClasses.s"
+	@echo "... uBitcoin/src/Bitcoin.o"
+	@echo "... uBitcoin/src/Bitcoin.i"
+	@echo "... uBitcoin/src/Bitcoin.s"
+	@echo "... uBitcoin/src/BitcoinCurve.o"
+	@echo "... uBitcoin/src/BitcoinCurve.i"
+	@echo "... uBitcoin/src/BitcoinCurve.s"
+	@echo "... uBitcoin/src/Conversion.o"
+	@echo "... uBitcoin/src/Conversion.i"
+	@echo "... uBitcoin/src/Conversion.s"
+	@echo "... uBitcoin/src/Electrum.o"
+	@echo "... uBitcoin/src/Electrum.i"
+	@echo "... uBitcoin/src/Electrum.s"
+	@echo "... uBitcoin/src/HDWallet.o"
+	@echo "... uBitcoin/src/HDWallet.i"
+	@echo "... uBitcoin/src/HDWallet.s"
+	@echo "... uBitcoin/src/Hash.o"
+	@echo "... uBitcoin/src/Hash.i"
+	@echo "... uBitcoin/src/Hash.s"
+	@echo "... uBitcoin/src/PSBT.o"
+	@echo "... uBitcoin/src/PSBT.i"
+	@echo "... uBitcoin/src/PSBT.s"
+	@echo "... uBitcoin/src/Script.o"
+	@echo "... uBitcoin/src/Script.i"
+	@echo "... uBitcoin/src/Script.s"
+	@echo "... uBitcoin/src/Transaction.o"
+	@echo "... uBitcoin/src/Transaction.i"
+	@echo "... uBitcoin/src/Transaction.s"
+	@echo "... uBitcoin/src/utility/segwit_addr.o"
+	@echo "... uBitcoin/src/utility/segwit_addr.i"
+	@echo "... uBitcoin/src/utility/segwit_addr.s"
+	@echo "... uBitcoin/src/utility/trezor/address.o"
+	@echo "... uBitcoin/src/utility/trezor/address.i"
+	@echo "... uBitcoin/src/utility/trezor/address.s"
+	@echo "... uBitcoin/src/utility/trezor/base58.o"
+	@echo "... uBitcoin/src/utility/trezor/base58.i"
+	@echo "... uBitcoin/src/utility/trezor/base58.s"
+	@echo "... uBitcoin/src/utility/trezor/bignum.o"
+	@echo "... uBitcoin/src/utility/trezor/bignum.i"
+	@echo "... uBitcoin/src/utility/trezor/bignum.s"
+	@echo "... uBitcoin/src/utility/trezor/bip39.o"
+	@echo "... uBitcoin/src/utility/trezor/bip39.i"
+	@echo "... uBitcoin/src/utility/trezor/bip39.s"
+	@echo "... uBitcoin/src/utility/trezor/ecdsa.o"
+	@echo "... uBitcoin/src/utility/trezor/ecdsa.i"
+	@echo "... uBitcoin/src/utility/trezor/ecdsa.s"
+	@echo "... uBitcoin/src/utility/trezor/hasher.o"
+	@echo "... uBitcoin/src/utility/trezor/hasher.i"
+	@echo "... uBitcoin/src/utility/trezor/hasher.s"
+	@echo "... uBitcoin/src/utility/trezor/hmac.o"
+	@echo "... uBitcoin/src/utility/trezor/hmac.i"
+	@echo "... uBitcoin/src/utility/trezor/hmac.s"
+	@echo "... uBitcoin/src/utility/trezor/memzero.o"
+	@echo "... uBitcoin/src/utility/trezor/memzero.i"
+	@echo "... uBitcoin/src/utility/trezor/memzero.s"
+	@echo "... uBitcoin/src/utility/trezor/pbkdf2.o"
+	@echo "... uBitcoin/src/utility/trezor/pbkdf2.i"
+	@echo "... uBitcoin/src/utility/trezor/pbkdf2.s"
+	@echo "... uBitcoin/src/utility/trezor/rand.o"
+	@echo "... uBitcoin/src/utility/trezor/rand.i"
+	@echo "... uBitcoin/src/utility/trezor/rand.s"
+	@echo "... uBitcoin/src/utility/trezor/rfc6979.o"
+	@echo "... uBitcoin/src/utility/trezor/rfc6979.i"
+	@echo "... uBitcoin/src/utility/trezor/rfc6979.s"
+	@echo "... uBitcoin/src/utility/trezor/ripemd160.o"
+	@echo "... uBitcoin/src/utility/trezor/ripemd160.i"
+	@echo "... uBitcoin/src/utility/trezor/ripemd160.s"
+	@echo "... uBitcoin/src/utility/trezor/secp256k1.o"
+	@echo "... uBitcoin/src/utility/trezor/secp256k1.i"
+	@echo "... uBitcoin/src/utility/trezor/secp256k1.s"
+	@echo "... uBitcoin/src/utility/trezor/sha2.o"
+	@echo "... uBitcoin/src/utility/trezor/sha2.i"
+	@echo "... uBitcoin/src/utility/trezor/sha2.s"
+	@echo "... uBitcoin/src/utility/trezor/sha3.o"
+	@echo "... uBitcoin/src/utility/trezor/sha3.i"
+	@echo "... uBitcoin/src/utility/trezor/sha3.s"
 .PHONY : help
 
 

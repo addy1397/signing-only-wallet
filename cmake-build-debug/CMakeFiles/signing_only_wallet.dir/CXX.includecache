@@ -77,6 +77,8 @@ vector
 -
 cstdlib
 -
+cstdio
+-
 Hash.h
 -
 

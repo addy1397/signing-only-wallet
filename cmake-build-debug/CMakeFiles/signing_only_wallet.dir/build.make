@@ -70,17 +70,407 @@ CMakeFiles/signing_only_wallet.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/main.cpp -o CMakeFiles/signing_only_wallet.dir/main.cpp.s
 
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.o: ../uBitcoin/src/BaseClasses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BaseClasses.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BaseClasses.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BaseClasses.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.o: ../uBitcoin/src/Bitcoin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Bitcoin.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Bitcoin.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Bitcoin.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.o: ../uBitcoin/src/BitcoinCurve.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BitcoinCurve.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BitcoinCurve.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/BitcoinCurve.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.o: ../uBitcoin/src/Conversion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Conversion.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Conversion.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Conversion.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.o: ../uBitcoin/src/Electrum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Electrum.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Electrum.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Electrum.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.o: ../uBitcoin/src/HDWallet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/HDWallet.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/HDWallet.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/HDWallet.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.o: ../uBitcoin/src/Hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Hash.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Hash.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Hash.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.o: ../uBitcoin/src/PSBT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/PSBT.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/PSBT.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/PSBT.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.o: ../uBitcoin/src/Script.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Script.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Script.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Script.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.o: ../uBitcoin/src/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.o -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Transaction.cpp
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Transaction.cpp > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/Transaction.cpp -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.o: ../uBitcoin/src/utility/segwit_addr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/segwit_addr.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/segwit_addr.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/segwit_addr.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.o: ../uBitcoin/src/utility/trezor/address.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/address.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/address.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/address.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.o: ../uBitcoin/src/utility/trezor/base58.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/base58.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/base58.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/base58.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.o: ../uBitcoin/src/utility/trezor/bignum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bignum.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bignum.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bignum.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.o: ../uBitcoin/src/utility/trezor/bip39.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bip39.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bip39.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/bip39.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.o: ../uBitcoin/src/utility/trezor/ecdsa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ecdsa.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ecdsa.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ecdsa.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.o: ../uBitcoin/src/utility/trezor/hasher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hasher.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hasher.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hasher.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.o: ../uBitcoin/src/utility/trezor/hmac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hmac.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hmac.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/hmac.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.o: ../uBitcoin/src/utility/trezor/memzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/memzero.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/memzero.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/memzero.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.o: ../uBitcoin/src/utility/trezor/pbkdf2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/pbkdf2.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/pbkdf2.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/pbkdf2.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.o: ../uBitcoin/src/utility/trezor/rand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rand.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rand.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rand.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.o: ../uBitcoin/src/utility/trezor/rfc6979.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rfc6979.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rfc6979.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/rfc6979.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.o: ../uBitcoin/src/utility/trezor/ripemd160.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ripemd160.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ripemd160.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/ripemd160.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.o: ../uBitcoin/src/utility/trezor/secp256k1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/secp256k1.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/secp256k1.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/secp256k1.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.o: ../uBitcoin/src/utility/trezor/sha2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha2.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha2.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha2.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.s
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.o: CMakeFiles/signing_only_wallet.dir/flags.make
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.o: ../uBitcoin/src/utility/trezor/sha3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.o   -c /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha3.c
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha3.c > CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.i
+
+CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parichay/CLionProjects/signing-only-wallet/uBitcoin/src/utility/trezor/sha3.c -o CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.s
+
 # Object files for target signing_only_wallet
 signing_only_wallet_OBJECTS = \
-"CMakeFiles/signing_only_wallet.dir/main.cpp.o"
+"CMakeFiles/signing_only_wallet.dir/main.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.o" \
+"CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.o"
 
 # External object files for target signing_only_wallet
 signing_only_wallet_EXTERNAL_OBJECTS =
 
 signing_only_wallet: CMakeFiles/signing_only_wallet.dir/main.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BaseClasses.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Bitcoin.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/BitcoinCurve.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Conversion.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Electrum.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/HDWallet.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Hash.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/PSBT.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Script.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/Transaction.cpp.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/segwit_addr.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/address.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/base58.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bignum.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/bip39.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ecdsa.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hasher.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/hmac.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/memzero.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/pbkdf2.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rand.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/rfc6979.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/ripemd160.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/secp256k1.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha2.c.o
+signing_only_wallet: CMakeFiles/signing_only_wallet.dir/uBitcoin/src/utility/trezor/sha3.c.o
 signing_only_wallet: CMakeFiles/signing_only_wallet.dir/build.make
 signing_only_wallet: CMakeFiles/signing_only_wallet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable signing_only_wallet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parichay/CLionProjects/signing-only-wallet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable signing_only_wallet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/signing_only_wallet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
